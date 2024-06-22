@@ -1,0 +1,52 @@
+.getItem {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  position: relative;
+}
+.reminder {
+  margin-right: 30px;
+  display: block;
+  color: #999;
+  font-size: 0.9em;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.radio {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.radio:hover {
+  cursor: pointer;
+  color: rgb(109, 115, 120);
+}
+
+.menuKebab {
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.description {
+  flex-grow: 1;
+}
+
+.DeleteContainer {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

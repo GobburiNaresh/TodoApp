@@ -1,0 +1,63 @@
+.today {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 50px;
+    position: relative;
+     
+    
+  }
+  
+  .cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cardHeader h1 {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  
+  .cardHeader p {
+    margin-top: 10px;
+    color: #605e5e;
+  }
+  .complete {
+    cursor: pointer;
+  }
+  
+  .cardHeader .complete {
+    margin-left: auto;
+    font-size: 20px;
+  }
+   
+  .cardHeader .complete:hover {
+    cursor: pointer;
+  }
+  
+  .card .currentDate {
+    margin-left: auto;
+  }
+  
+  .addtask {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    color: red;
+  }
+  .addtask:hover{
+    cursor: pointer;
+  }
+  
+  .addtask .icon{
+    font-size: 20px;
+  
+  }
+  
+  .addtask h3 {
+    margin-left: 5px;
+  }
+  
